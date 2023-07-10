@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin-block-start: 5rem;
+  font-size: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  justify-content: center;
+  margin-block-end: 1em;
+  line-height: 150%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* STYLING THE CAR LOGO */
+
+.car-logo {
+  margin-block-end: 1em;
+}
+
+/* STYLING THE FIRST CARD */
+
+.first-card {
+  background-color: hsl(31, 77%, 52%);
+  inline-size: fit-content;
+  padding: 2em;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.first-card button {
+  border: none;
+  color: hsl(31, 77%, 52%);
+  padding: 10px;
+  border-radius: 30px;
+  inline-size: 50%;
+  background-color: hsl(0, 0%, 95%);
+}
+
+/* STYLING THE SECOND CARD */
+.second-card {
+  background-color: hsl(184, 100%, 22%);
+  inline-size: fit-content;
+  padding: 2em;
+}
+
+.second-card button {
+  border: none;
+  color: hsl(184, 100%, 22%);
+  padding: 10px;
+  border-radius: 30px;
+  inline-size: 50%;
+  background-color: hsl(0, 0%, 95%);
+}
+
+/* STYLING THE THIRD CARD */
+
+.third-card {
+  background-color: hsl(179, 100%, 13%);
+  inline-size: fit-content;
+  padding: 2em;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.third-card button {
+  border: none;
+  color: hsl(179, 100%, 13%);
+  padding: 10px;
+  border-radius: 30px;
+  inline-size: 50%;
+  background-color: hsl(0, 0%, 95%);
+
+}
+
+p {
+  max-width: 14em;
+  min-width: 14em;
+  margin-block-end: 5em;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+  margin-block-end: 1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .first-card{
+    border-radius: 10px 10px 0px 0px;
+    }
+}  
+
+@media only screen and (max-width: 767px) {
+    .third-card{
+    border-radius: 0px 0px 10px 10px;
+    }
+}  
+
+
